@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <header></header>
+  <body></body>
+</html>
+<script type="text/javascript" src="script.js"></script>
+
+  <style>
+    input:focus {
+      outline: none;
+    }
+  </style>
+</header>
+<body>
+  <h1>Andrea </h1>
+  <input id="inputTask" type="text" placeholder="Add a new task..." />
+  <button onclick="addNewTask()">Add</button><br />
+  <div id="taskList"></div>
+
+  <!-- <h1>Brickr</h1>
+  <p>Type your email if you're a big brick man and shit</p>
+  <input
+    type="email"
+    placeholder="Enter email"
+    onkeyup="checkemail (this.value)"
+  />
+  <button>Submit</button> -->
+
+  <input 
+id ="inputTask"
+type="text"
+placeholder="add a new task"
+onekeyup="checkedKeyPressed(event)"
+/>
+<button onclick="getMeTheWeather()" >Find</button><br/> 
+
+</body>
+</html>
+<h1>The Weather app</h1>
+    <input id="city" type="text" placeholder="Enter a city name.." />
+    <button onclick="getMeTheWeather()">Find</button><br />
+    <div id="weatherData"></div>
+  </body>
+</html>
